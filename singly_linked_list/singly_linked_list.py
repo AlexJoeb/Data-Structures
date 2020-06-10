@@ -84,7 +84,7 @@ class LinkedList:
             self.tail = None
             self.tail = current
         
-        return data
+        return data.get_value()
 
     '''
     Removes the Node that 'self.head' is referring to and returns the Node's data.
